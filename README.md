@@ -12,3 +12,10 @@ A comparison with DIRECT, a state-of-the-art algorithm in Black-Box Global Optim
 
 The results of the tests on the [optimization test functions](https://www.sfu.ca/~ssurjano/optimization.html) showed that the new statistical method applied to ``NGOpt`` and ``NOMAD`` found the global optimum on all the test functions,
 while ``DIRECT-GL`` didn't solve a large portion of high-dimensional problems.
+
+## Source code
+
+- [``NGOpt``](https://github.com/loreleva/nevergrad_bbo_hypothesis_testing).
+- [``NOMAD``](https://github.com/loreleva/nomad_bbo_hypothesis_testing).
+- [``DIRECT-GL``](https://github.com/loreleva/DIRECT_hypothesis_testing).
+- [Python module](https://github.com/loreleva/bbo-functions/tree/main/sfu) for the evaluation of the test functions. 
